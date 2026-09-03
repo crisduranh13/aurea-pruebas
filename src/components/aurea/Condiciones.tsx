@@ -49,8 +49,8 @@ const condiciones = [
 ];
 
 export function Condiciones() {
-  const [activa, setActiva] = useState(condiciones[0].id);
-  const seleccion = condiciones.find((c) => c.id === activa)!;
+  const [activa, setActiva] = useState(condiciones[0]!.id);
+  const seleccion = condiciones.find((c) => c.id === activa) ?? condiciones[0]!;
 
   return (
     <section className="bg-background px-6 py-24 md:px-10 md:py-36">

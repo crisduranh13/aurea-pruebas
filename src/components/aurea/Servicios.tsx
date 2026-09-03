@@ -102,22 +102,22 @@ export function Servicios() {
 
         <div className="mt-16 grid gap-14 md:grid-cols-12 md:gap-x-10 md:gap-y-24">
           <Reveal className="md:col-span-7">
-            <Card s={servicios[0]} ratio="aspect-[4/5] md:aspect-[5/6]" />
+            <Card s={servicios[0]!} ratio="aspect-[4/5] md:aspect-[5/6]" />
           </Reveal>
           <Reveal className="md:col-span-4 md:col-start-9 md:pt-28" delay={100}>
-            <Card s={servicios[1]} ratio="aspect-[3/4]" />
+            <Card s={servicios[1]!} ratio="aspect-[3/4]" />
           </Reveal>
           <Reveal className="md:col-span-5" delay={60}>
-            <Card s={servicios[2]} ratio="aspect-[4/3]" />
+            <Card s={servicios[2]!} ratio="aspect-[4/3]" />
           </Reveal>
           <Reveal className="md:col-span-6 md:col-start-7 md:-mt-16" delay={140}>
-            <Card s={servicios[3]} ratio="aspect-[16/10]" />
+            <Card s={servicios[3]!} ratio="aspect-[16/10]" />
           </Reveal>
           <Reveal className="md:col-span-4 md:col-start-2" delay={60}>
-            <Card s={servicios[4]} ratio="aspect-[3/4]" />
+            <Card s={servicios[4]!} ratio="aspect-[3/4]" />
           </Reveal>
           <Reveal className="md:col-span-5 md:col-start-7 md:pt-24" delay={140}>
-            <Card s={servicios[5]} ratio="aspect-[4/3]" />
+            <Card s={servicios[5]!} ratio="aspect-[4/3]" />
           </Reveal>
         </div>
       </div>
