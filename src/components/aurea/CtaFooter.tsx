@@ -30,7 +30,6 @@ export function CtaClinica() {
     </section>
   );
 }
-
 export function FooterClinica() {
   return (
     <footer className="bg-charcoal px-6 py-20 text-background md:px-10">
@@ -106,40 +105,3 @@ export function FooterClinica() {
   );
 }
 
-export function BloqueVende24() {
-  return (
-    <section className="bg-sand px-6 py-20 md:px-10 md:py-28">
-      <div className="mx-auto max-w-[1400px]">
-        <Reveal className="grid gap-10 md:grid-cols-12 md:items-end">
-          <div className="md:col-span-7">
-            <p className="eyebrow">Vende24Siete</p>
-            <h2 className="mt-5 font-display text-[clamp(1.9rem,4vw,3.2rem)] leading-[1.05]">
-              Tu clínica también puede proyectar este nivel.
-            </h2>
-            <p className="mt-6 max-w-xl leading-relaxed text-muted-foreground">
-              Así de bien puede verse tu imagen en un sitio web diseñado para generar confianza,
-              destacar tus servicios y convertir visitas en nuevos pacientes.
-            </p>
-            <p className="mt-4 max-w-xl leading-relaxed text-muted-foreground">
-              Creamos experiencias digitales profesionales para clínicas y negocios que quieren
-              crecer.
-            </p>
-          </div>
-          <div className="md:col-span-5 md:text-right">
-            <a
-              href="https://vende24siete.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-base btn-outline-ink"
-            >
-              Quiero una propuesta para mi negocio
-            </a>
-            <p className="mt-6 text-xs uppercase tracking-[0.24em] text-muted-foreground">
-              Demo conceptual creado por Vende24Siete
-            </p>
-          </div>
-        </Reveal>
-      </div>
-    </section>
-  );
-}

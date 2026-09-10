@@ -31,7 +31,7 @@ export function Header() {
             scrolled || open ? "text-foreground" : "text-background",
           )}
         >
-          ÁUREA PRUEBAS
+          ÁUREA
           <span className="ml-2 font-sans text-[0.6rem] tracking-[0.3em] uppercase opacity-70">
             Dermatología
           </span>

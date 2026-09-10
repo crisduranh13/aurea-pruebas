@@ -35,9 +35,6 @@ export function Especialista() {
             Prioriza resultados naturales, planes sostenibles en el tiempo y un acompañamiento
             cercano en cada etapa del tratamiento.
           </p>
-          <p className="mt-8 text-xs text-background/50">
-            Perfil ficticio creado con fines demostrativos.
-          </p>
         </Reveal>
       </div>
     </section>

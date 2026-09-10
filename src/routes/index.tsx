@@ -7,7 +7,7 @@ import { Condiciones } from "@/components/aurea/Condiciones";
 import { Especialista } from "@/components/aurea/Especialista";
 import { Metodologia } from "@/components/aurea/Metodologia";
 import { Resultados } from "@/components/aurea/Resultados";
-import { CtaClinica, FooterClinica, BloqueVende24 } from "@/components/aurea/CtaFooter";
+import { CtaClinica, FooterClinica } from "@/components/aurea/CtaFooter";
 
 const TITLE = "ÁUREA PRUEBAS | Clínica dermatológica en Guadalajara";
 const DESCRIPTION =
@@ -38,8 +38,10 @@ export const Route = createFileRoute("/")({
       { name: "description", content: DESCRIPTION },
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
+      { property: "og:image", content: "https://vende24siete.com/images/og-image-derma.jpg" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "es_MX" },
+      { name: "author", content: "Hecha by Vende24siete.com" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     scripts: [
@@ -67,7 +69,6 @@ function Index() {
         <CtaClinica />
       </main>
       <FooterClinica />
-      <BloqueVende24 />
     </>
   );
 }

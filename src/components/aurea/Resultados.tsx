@@ -97,12 +97,6 @@ export function Resultados() {
             </Reveal>
           ))}
         </div>
-        <Reveal className="mt-8">
-          <p className="text-xs text-muted-foreground">
-            Testimonios de carácter demostrativo. No corresponden a pacientes reales ni a reseñas
-            verificadas.
-          </p>
-        </Reveal>
       </div>
     </section>
   );
