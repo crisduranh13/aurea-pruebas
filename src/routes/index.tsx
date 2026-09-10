@@ -9,14 +9,14 @@ import { Metodologia } from "@/components/aurea/Metodologia";
 import { Resultados } from "@/components/aurea/Resultados";
 import { CtaClinica, FooterClinica, BloqueVende24 } from "@/components/aurea/CtaFooter";
 
-const TITLE = "ÁUREA Dermatología | Clínica dermatológica en Guadalajara";
+const TITLE = "ÁUREA PRUEBAS | Clínica dermatológica en Guadalajara";
 const DESCRIPTION =
   "Dermatología clínica y estética en Guadalajara: acné, manchas, melasma, rejuvenecimiento facial, láser y caída del cabello. Agenda tu valoración personalizada.";
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
-  name: "ÁUREA Dermatología",
+  name: "ÁUREA PRUEBAS",
   description: DESCRIPTION,
   medicalSpecialty: "Dermatology",
   address: {

@@ -37,7 +37,7 @@ export function FooterClinica() {
       <div className="mx-auto max-w-[1400px]">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-4">
-            <p className="font-display text-2xl tracking-[0.18em]">ÁUREA</p>
+            <p className="font-display text-2xl tracking-[0.18em]">ÁUREA PRUEBAS</p>
             <p className="mt-1 text-[0.65rem] uppercase tracking-[0.3em] text-background/60">
               Dermatología
             </p>
@@ -91,7 +91,7 @@ export function FooterClinica() {
         </div>
 
         <div className="mt-16 flex flex-col gap-3 border-t border-background/15 pt-6 text-xs text-background/55 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} ÁUREA Dermatología. Clínica ficticia.</p>
+          <p>© {new Date().getFullYear()} ÁUREA PRUEBAS. Clínica ficticia.</p>
           <div className="flex gap-6">
             <a href="#contacto" className="link-underline">
               Aviso de privacidad

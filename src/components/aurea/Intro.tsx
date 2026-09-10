@@ -14,7 +14,7 @@ export function Intro() {
           </Reveal>
           <Reveal className="md:col-span-6 md:col-start-7 md:pt-4" delay={120}>
             <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
-              En ÁUREA cada diagnóstico y cada tratamiento se diseñan considerando la condición
+              En ÁUREA PRUEBAS cada diagnóstico y cada tratamiento se diseñan considerando la condición
               actual de tu piel, tu historia clínica, tu estilo de vida y los objetivos que quieres
               alcanzar. No trabajamos con protocolos genéricos: escuchamos, valoramos y proponemos.
             </p>
@@ -41,7 +41,7 @@ export function Intro() {
         <Reveal className="img-zoom mt-20 md:mt-28" delay={80}>
           <img
             src={clinica}
-            alt="Recepción de la clínica dermatológica ÁUREA con acabados en travertino y luz natural"
+              alt="Recepción de la clínica dermatológica ÁUREA PRUEBAS con acabados en travertino y luz natural"
             width={1408}
             height={1008}
             loading="lazy"
