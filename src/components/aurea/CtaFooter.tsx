@@ -11,7 +11,7 @@ export function CtaClinica() {
             Un Web es Imagen, presencia y atracción de pacientes.
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Tengamos una llamada de 5 minutos para platicar nuestros planes y opciones.
+            Tengamos una llama de 5 minutos para platicar nuestro planes y opciones.
           </p>
           <a
             href={WHATSAPP_URL}
@@ -33,7 +33,7 @@ export function FooterClinica() {
       <div className="mx-auto max-w-[1400px]">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-4">
-            <p className="font-display text-2xl tracking-[0.12em]">
+            <p className="font-display text-2xl tracking-[0.18em]">
               ÁUREA CLÍNICA - EJEMPLO DEMO WEB
             </p>
             <p className="mt-1 text-[0.65rem] uppercase tracking-[0.3em] text-background/60">
@@ -47,14 +47,14 @@ export function FooterClinica() {
           <div className="md:col-span-3">
             <p className="eyebrow !text-background/50">Contacto</p>
             <address className="mt-5 space-y-2 text-sm not-italic text-background/75">
-              <p>Tu dirección aparecerá aquí</p>
-              <p>Guadalajara, Jalisco · Ejemplo</p>
-              <p>Tel. +52 33 1890 3307</p>
+              <p>Av. Pablo Neruda 2510, Providencia</p>
+              <p>44630 Guadalajara, Jalisco</p>
+              <p>Tel. +52 33 0000 0000</p>
             </address>
           </div>
 
           <div className="md:col-span-2">
-            <p className="eyebrow !text-background/50">Horarios de ejemplo</p>
+            <p className="eyebrow !text-background/50">Horarios</p>
             <ul className="mt-5 space-y-2 text-sm text-background/75">
               <li>Lun – Vie · 9:00 a 19:00</li>
               <li>Sábado · 9:00 a 14:00</li>
@@ -89,15 +89,15 @@ export function FooterClinica() {
         </div>
 
         <div className="mt-16 flex flex-col gap-3 border-t border-background/15 pt-6 text-xs text-background/55 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-[15px]">
-            © {new Date().getFullYear()} ÁUREA CLÍNICA - EJEMPLO DEMO WEB. — BY{" "}
+          <p>
+            © 2026 ÁUREA CLÍNICA - Demo Web by{" "}
             <a
               href="https://vende24siete.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="link-underline"
             >
-              VENDE24SIETE.COM
+              Vende24siete
             </a>
           </p>
           <div className="flex gap-6">

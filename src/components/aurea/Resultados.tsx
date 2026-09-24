@@ -55,7 +55,7 @@ export function Resultados() {
         <Reveal className="max-w-2xl">
           <p className="eyebrow">Resultados y confianza</p>
           <h2 className="mt-6 font-display text-[clamp(2rem,4.2vw,3.4rem)] leading-[1.05]">
-            Ejemplos de seguimiento y testimonios simulados
+            Procesos documentados, expectativas honestas
           </h2>
         </Reveal>
 
@@ -81,7 +81,7 @@ export function Resultados() {
           {testimonios.map((t, i) => (
             <Reveal key={t.autor} delay={i * 100} className="border-t border-charcoal/20 pt-8">
               <article className="group -mx-4 rounded-sm px-4 py-6 transition-all duration-500 hover:-translate-y-1 hover:bg-background/70 hover:shadow-[0_18px_45px_-30px_var(--charcoal)]">
-                <blockquote className="font-display text-xl font-semibold leading-snug transition-colors duration-500 group-hover:text-clay md:text-2xl">
+                <blockquote className="font-display text-xl font-bold leading-snug transition-colors duration-500 group-hover:text-clay md:text-2xl">
                   “{t.texto}”
                 </blockquote>
                 <p className="mt-7 font-display text-xl font-semibold text-foreground md:text-2xl">

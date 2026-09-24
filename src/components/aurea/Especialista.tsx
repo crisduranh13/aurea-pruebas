@@ -9,7 +9,7 @@ export function Especialista() {
           <div className="img-zoom">
             <img
               src={dra}
-              alt="Espacio para tu foto profesional"
+              alt="Retrato profesional de la Dra. Elena Navarro, dermatóloga"
               width={1024}
               height={1280}
               loading="lazy"
@@ -24,15 +24,16 @@ export function Especialista() {
             Tu Foto y Nombre Aquí :)
           </h2>
           <p className="mt-3 text-sm uppercase tracking-[0.2em] text-background/60">
-            Perfil profesional de ejemplo
+            Dermatóloga certificada
           </p>
           <p className="mt-8 max-w-xl leading-relaxed text-background/80">
-            Aquí puedes contar tu trayectoria, tu especialidad y la forma en que atiendes a tus
-            pacientes. Este espacio se adaptará a tu perfil y a tus fotografías reales.
+            La Dra. Navarro dedica su práctica a la dermatología clínica y estética con un enfoque
+            basado en evidencia. Su método parte de un diagnóstico preciso y de explicar con
+            claridad cada opción, para que las decisiones se tomen con información y sin prisas.
           </p>
           <p className="mt-5 max-w-xl leading-relaxed text-background/80">
-            La presentación puede explicar tu enfoque profesional y ayudar a que cada paciente
-            conozca mejor tu trabajo antes de ponerse en contacto.
+            Prioriza resultados naturales, planes sostenibles en el tiempo y un acompañamiento
+            cercano en cada etapa del tratamiento.
           </p>
         </Reveal>
       </div>

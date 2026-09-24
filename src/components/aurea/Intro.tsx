@@ -9,23 +9,23 @@ export function Intro() {
           <Reveal className="md:col-span-5">
             <p className="eyebrow">La clínica</p>
             <h2 className="mt-6 font-display text-[clamp(2rem,4.2vw,3.4rem)] leading-[1.05]">
-              Este sitio es una demostración de lo que podemos crear para tu clínica.
+              Tu piel merece una atención tan única como tú.
             </h2>
           </Reveal>
           <Reveal className="md:col-span-6 md:col-start-7 md:pt-4" delay={120}>
             <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
-              Los nombres, textos e imágenes son simulados. Tu sitio puede adaptarse completamente a
-              tu especialidad, servicios, imagen, fotografías y forma de trabajar.
+              En ÁUREA Clinica Dermatologica diagnóstico y cada tratamiento se diseñan considerando
+              la condición actual de tu piel, tu historia clínica, tu estilo de vida y los objetivos
+              que quieres alcanzar. No trabajamos con protocolos genéricos: escuchamos, valoramos y
+              proponemos.
             </p>
             <div className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
-              <p className="font-medium text-foreground">Este puede ser tu sitio.</p>
-              <p className="mt-3">
-                Si este demo te gustó, imagina lo que podemos hacer con tu marca, tus fotografías,
-                tu experiencia y tus servicios reales.
+              <p className="font-display text-xl font-bold italic transition-all duration-500 hover:translate-x-1 hover:text-clay md:text-2xl">
+                ESTE ES UN DEMO WEB PARA DARTE UN EJEMPLO DE CALIDAD QUE TENDRÍAS CON NOSTROS
               </p>
               <ul className="mt-5 space-y-3" role="list">
                 {[
-                  "Diseñado para la forma en que hoy tus pacientes buscan. Una experiencia visual pensada primero para celular, también optimizada para tablet y computadora.",
+                  "Tecnología 2026 enfocada a celulares",
                   "Web visual con tu identidad gráfica y colores (podemos hacer propuesta con tus colores y marca)",
                   "Se crea tu web como un traje a la medida, no es un template, es único para ti.",
                   "SEO / Integración a tu Google Maps",
@@ -55,7 +55,7 @@ export function Intro() {
         <Reveal className="img-zoom mt-20 md:mt-28" delay={80}>
           <img
             src={clinica}
-            alt="Recepción de ÁUREA Clínica Dermatológica con acabados en travertino y luz natural"
+            alt="Recepción de la clínica dermatológica ÁUREA PRUEBAS con acabados en travertino y luz natural"
             width={1408}
             height={1008}
             loading="lazy"

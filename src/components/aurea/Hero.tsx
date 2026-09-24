@@ -40,13 +40,15 @@ export function Hero() {
 
       <div className="relative mx-auto flex min-h-[100svh] max-w-[1400px] flex-col justify-end px-6 pb-16 pt-32 md:px-10 md:pb-24">
         <div className="max-w-3xl">
-          <p className="eyebrow !text-background/70">DEMO WEB · CONTENIDO SIMULADO</p>
+          <p className="eyebrow !text-background/70">Guadalajara · México</p>
           <h1 className="mt-6 font-display text-[clamp(2.6rem,7vw,5.6rem)] leading-[0.98] text-background">
-            Clínica de dermatología especializada en Guadalajara
+            Dermatología que
+            <br />
+            entiende tu piel.
           </h1>
           <p className="mt-7 max-w-xl text-base leading-relaxed text-background/80 md:text-lg">
-            Un espacio pensado para el cuidado de la piel, con atención especializada, tecnología y
-            una experiencia profesional desde el primer contacto.
+            Ciencia, tecnología y atención personalizada para cuidar la salud y apariencia de tu
+            piel en cada etapa.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <a
@@ -55,7 +57,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="btn-base btn-clay"
             >
-              Quiero una web para mi clínica
+              Agenda tu valoración
             </a>
             <a href="#tratamientos" className="btn-base btn-outline-light">
               Conoce nuestros tratamientos

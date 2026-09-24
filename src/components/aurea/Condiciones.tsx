@@ -98,7 +98,7 @@ export function Condiciones() {
                 rel="noopener noreferrer"
                 className="btn-base btn-clay"
               >
-                Hablemos de tu web
+                Solicitar valoración
               </a>
               <p className="max-w-xs text-xs leading-relaxed text-muted-foreground">
                 Información general de carácter demostrativo. No sustituye un diagnóstico médico
