@@ -62,7 +62,7 @@ export function Header() {
               scrolled ? "btn-clay" : "btn-outline-light",
             )}
           >
-            Agenda una valoración
+            Hablemos de tu web
           </a>
           <button
             type="button"
@@ -103,7 +103,7 @@ export function Header() {
             rel="noopener noreferrer"
             className="btn-base btn-clay mt-6 w-full"
           >
-            Agenda una valoración
+            Hablemos de tu web
           </a>
         </nav>
       )}

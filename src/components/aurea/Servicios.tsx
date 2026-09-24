@@ -69,12 +69,7 @@ function Card({ s, className, ratio }: { s: Servicio; className?: string; ratio:
   return (
     <article className={className}>
       <div className="img-zoom">
-        <img
-          src={s.img}
-          alt={s.alt}
-          loading="lazy"
-          className={`w-full object-cover ${ratio}`}
-        />
+        <img src={s.img} alt={s.alt} loading="lazy" className={`w-full object-cover ${ratio}`} />
       </div>
       <div className="mt-6 flex gap-5">
         <span className="eyebrow pt-1">{s.num}</span>
@@ -94,7 +89,9 @@ export function Servicios() {
     <section id="tratamientos" className="bg-sand/50 px-6 py-24 md:px-10 md:py-36">
       <div className="mx-auto max-w-[1400px]">
         <Reveal className="max-w-2xl">
-          <p className="eyebrow">Tratamientos</p>
+          <p className="eyebrow !leading-relaxed !tracking-[0.14em]">
+            AQUÍ PONEMOS LOS TRATAMIENTOS DE TU ESPECIALIDAD (EJEMPLOS)
+          </p>
           <h2 className="mt-6 font-display text-[clamp(2rem,4.2vw,3.4rem)] leading-[1.05]">
             Áreas de atención dermatológica
           </h2>

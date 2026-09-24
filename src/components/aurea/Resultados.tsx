@@ -55,7 +55,7 @@ export function Resultados() {
         <Reveal className="max-w-2xl">
           <p className="eyebrow">Resultados y confianza</p>
           <h2 className="mt-6 font-display text-[clamp(2rem,4.2vw,3.4rem)] leading-[1.05]">
-            Procesos documentados, expectativas honestas
+            Ejemplos de seguimiento y testimonios simulados
           </h2>
         </Reveal>
 
@@ -77,23 +77,20 @@ export function Resultados() {
           ))}
         </div>
 
-        <Reveal className="mt-12 border-t border-border pt-8">
-          <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
-            Cada piel responde de manera diferente. Los resultados dependen de la valoración y del
-            tratamiento indicado. Las imágenes y seguimientos mostrados son material demostrativo.
-          </p>
-        </Reveal>
-
         <div className="mt-24 grid gap-10 md:grid-cols-3">
           {testimonios.map((t, i) => (
             <Reveal key={t.autor} delay={i * 100} className="border-t border-charcoal/20 pt-8">
-              <blockquote className="font-display text-xl leading-snug md:text-2xl">
-                “{t.texto}”
-              </blockquote>
-              <p className="mt-6 text-sm text-foreground">{t.autor}</p>
-              <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
-                {t.ciudad}
-              </p>
+              <article className="group -mx-4 rounded-sm px-4 py-6 transition-all duration-500 hover:-translate-y-1 hover:bg-background/70 hover:shadow-[0_18px_45px_-30px_var(--charcoal)]">
+                <blockquote className="font-display text-xl font-semibold leading-snug transition-colors duration-500 group-hover:text-clay md:text-2xl">
+                  “{t.texto}”
+                </blockquote>
+                <p className="mt-7 font-display text-xl font-semibold text-foreground md:text-2xl">
+                  {t.autor}
+                </p>
+                <p className="mt-1 text-sm font-medium uppercase tracking-[0.18em] text-muted-foreground md:text-base">
+                  {t.ciudad}
+                </p>
+              </article>
             </Reveal>
           ))}
         </div>

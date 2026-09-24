@@ -9,27 +9,10 @@ import { Metodologia } from "@/components/aurea/Metodologia";
 import { Resultados } from "@/components/aurea/Resultados";
 import { CtaClinica, FooterClinica } from "@/components/aurea/CtaFooter";
 
-const TITLE = "ÁUREA PRUEBAS | Clínica dermatológica en Guadalajara";
+const TITLE = "Áurea Dermatología | Demo Web Profesional";
 const DESCRIPTION =
-  "Dermatología clínica y estética en Guadalajara: acné, manchas, melasma, rejuvenecimiento facial, láser y caída del cabello. Agenda tu valoración personalizada.";
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  name: "ÁUREA PRUEBAS",
-  description: DESCRIPTION,
-  medicalSpecialty: "Dermatology",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Av. Pablo Neruda 2510, Providencia",
-    addressLocality: "Guadalajara",
-    addressRegion: "Jalisco",
-    postalCode: "44630",
-    addressCountry: "MX",
-  },
-  telephone: "+52-33-0000-0000",
-  openingHours: ["Mo-Fr 09:00-19:00", "Sa 09:00-14:00"],
-};
+  "Demo de sitio web para clínica dermatológica en Guadalajara. Diseño premium, mobile-first y pensado para mostrar servicios médicos de forma clara, visual y profesional.";
+const SOCIAL_IMAGE = "/og-image-derma.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -38,17 +21,17 @@ export const Route = createFileRoute("/")({
       { name: "description", content: DESCRIPTION },
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
-      { property: "og:image", content: "https://vende24siete.com/images/og-image-derma.jpg" },
+      { property: "og:image", content: SOCIAL_IMAGE },
+      { property: "og:image:alt", content: "Vista previa del demo web de Áurea Dermatología" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "es_MX" },
       { name: "author", content: "Hecha by Vende24siete.com" },
       { name: "twitter:card", content: "summary_large_image" },
-    ],
-    scripts: [
-      {
-        type: "application/ld+json",
-        children: JSON.stringify(jsonLd),
-      },
+      { name: "twitter:title", content: TITLE },
+      { name: "twitter:description", content: DESCRIPTION },
+      { name: "twitter:image", content: SOCIAL_IMAGE },
     ],
   }),
   component: Index,

@@ -3,7 +3,7 @@
 
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-const isNetlify = process.env.NETLIFY === "true";
+const isNetlify = process.env["NETLIFY"] === "true";
 
 export default defineConfig({
   // Netlify receives its compatible build.

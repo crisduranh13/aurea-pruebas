@@ -92,11 +92,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         rel: "icon",
-        href: "https://vende24siete.com/images/fav-icono-anu.jpg",
+        href: "/fav-icono-anu.jpg",
         type: "image/jpeg",
       },
     ],
-
   }),
   shellComponent: RootShell,
   component: RootComponent,
