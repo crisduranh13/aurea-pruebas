@@ -21,7 +21,7 @@ export function Intro() {
             </p>
             <div className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
               <p className="font-display text-xl font-bold italic transition-all duration-500 hover:translate-x-1 hover:text-clay md:text-2xl">
-                ESTE ES UN DEMO WEB PARA DARTE UN EJEMPLO DE CALIDAD QUE TENDRÍAS CON NOSTROS
+                Esto es DemoWeb visual creativo, podemos crear tu web con tu imagen y servicios.
               </p>
               <ul className="mt-5 space-y-3" role="list">
                 {[

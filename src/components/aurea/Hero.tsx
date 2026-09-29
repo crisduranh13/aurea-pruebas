@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import heroSkin from "@/assets/hero-skin.jpg";
+import heroMobile from "@/assets/derma-hero-movil.jpg";
 import { WHATSAPP_URL } from "@/lib/aurea";
 
 export function Hero() {
@@ -21,15 +22,18 @@ export function Hero() {
 
   return (
     <section id="inicio" className="relative min-h-[100svh] overflow-hidden bg-charcoal">
-      <img
-        src={heroSkin}
-        alt="Primer plano de piel saludable con luz natural cálida"
-        width={1600}
-        height={1200}
-        fetchPriority="high"
-        className="absolute inset-0 h-[115%] w-full object-cover object-center"
-        style={{ transform: `translate3d(0, -${offset}px, 0)` }}
-      />
+      <picture>
+        <source media="(max-width: 767px)" srcSet={heroMobile} />
+        <img
+          src={heroSkin}
+          alt="Primer plano de piel saludable con luz natural cálida"
+          width={1600}
+          height={1200}
+          fetchPriority="high"
+          className="absolute inset-0 h-[115%] w-full object-cover object-center"
+          style={{ transform: `translate3d(0, -${offset}px, 0)` }}
+        />
+      </picture>
       <div
         className="absolute inset-0"
         style={{
